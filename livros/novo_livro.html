@@ -1,0 +1,21 @@
+<div class="container">
+    <title>Livros</title>
+    <hr>
+    <h1>Crie um novo livro</h1>
+    <hr>
+
+    <form action="http://localhost:3000/book" method="POST">
+        <div class="form-group">
+            <label for="Titulo">Titulo</label>
+            <input class="form-control" name="Titulo">
+        </div>
+
+        <!--Other fields-->
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <form action="http://localhost:3000/books" method="GET">
+        <!--Other fields-->
+        <button type="submit" class="btn btn-primary">Ver livros</button>
+    </form>
+</div>
