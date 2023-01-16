@@ -1,13 +1,14 @@
-cd C:\Users\guilh\eclipse-workspace
-git init
-git remote add origin https://github.com/guiamaral3/Projetos-java.git
-git branch
-git add .
-git commit -a -m "NomeCommit"
-git status
-git checkout NomeBranch
-git push
-git pull
-git branch -d NomeBranch
-git remote show origin NomeBranch
-git restore
+cd C:\Users\guilh\eclipse-workspace (acessar pasta)
+git init (instalar dependencias do git)
+git remote add origin https://github.com/guiamaral3/Projetos-java.git (Adicionar origin do git ao projeto)
+git branch (listar branchs)
+git branch -a (listar branchs remotas)
+git add . (Adicionar todas alterações no staging)
+git commit -a -m "NomeCommit" (Comitar alterações)
+git status (Verificar o status da branch)
+git checkout NomeBranch (mudar de branch)
+git push (Subir alterações para o repositório)
+git pull (Baixar arquivos do repositório)
+git branch -d NomeBranch (deletar branch)
+git remote show origin NomeBranch (Ver origin do git)
+git restore (Desfazer alterações)
