@@ -1,6 +1,6 @@
 cd C:\Users\guilh\eclipse-workspace (acessar pasta)
 git init (instalar dependencias do git)
-git remote add origin https://github.com/guiamaral3/Projetos-java.git (Adicionar origin do git ao projeto)
+git remote add origin https://github.com/guiamaral3/Projetos-javascript.git (Adicionar origin do git ao projeto)
 git branch (listar branchs)
 git branch -a (listar branchs remotas)
 git add . (Adicionar todas alterações no staging)
