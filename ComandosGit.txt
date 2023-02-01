@@ -4,7 +4,7 @@ git remote add origin https://github.com/guiamaral3/Projetos-javascript.git (Adi
 git branch (listar branchs)
 git branch -a (listar branchs remotas)
 git add . (Adicionar todas alterações no staging)
-git commit -a -m "NomeCommit" (Comitar alterações)
+git commit -a -m "" (Comitar alterações)
 git status (Verificar o status da branch)
 git checkout NomeBranch (mudar de branch)
 git push (Subir alterações para o repositório)
