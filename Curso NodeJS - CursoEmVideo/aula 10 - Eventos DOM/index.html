@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div.area {
+            background: green;
+            color: white;
+            width: 200px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="area" onclick="clicar()">
+        Mudar para fundo
+    </div>
+
+    <script>
+        var a = window.document.getElementsByClassName('area')[0]
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+        }
+        function entrar() {
+            a.innerText = 'Entrou!'
+        }
+        function sair() {
+            a.innerText = 'Saíu!'
+            a.style.background = 'green'
+        }
+    </script>
+
+</body>
+
+</html>
