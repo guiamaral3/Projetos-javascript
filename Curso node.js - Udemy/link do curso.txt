@@ -1,1 +1,17 @@
 https://www.udemy.com/course/construindo-um-backend-escalavel-com-nestjs-aws-e-pivotalws/
+
+Instalação: Instalar node, npm e nestjs
+$ npm install -g npm
+$ npm install -g @nestjs/cli
+
+// Criar projeto nestjs
+$ nest new nome-projeto
+
+// Rodar aplicação nest
+$ npm run start:dev
+
+// Criar module
+$ nest g module jogadores
+
+// Criar controller
+$ nest g controller jogadores
