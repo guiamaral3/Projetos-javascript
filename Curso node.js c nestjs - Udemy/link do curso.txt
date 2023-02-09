@@ -15,3 +15,14 @@ $ nest g module jogadores
 
 // Criar controller
 $ nest g controller jogadores
+
+// module
+
+// controller
+Controle http
+
+// interface
+implementa campos do objeto
+
+// dto
+implementa campos que vem do cliente
