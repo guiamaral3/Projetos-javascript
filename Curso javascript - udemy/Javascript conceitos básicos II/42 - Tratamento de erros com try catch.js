@@ -1,8 +1,6 @@
-//console.log(nome); // ReferenceError
+// console.log(nome); // ReferenceError
 
 //console.log('Oi...');
-
-//console.log(4.Oi());
 
 // Tratamos erros com try/catch
 // try{

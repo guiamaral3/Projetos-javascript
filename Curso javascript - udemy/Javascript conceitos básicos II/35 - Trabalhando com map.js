@@ -1,15 +1,15 @@
-// Map serve para varrer o array   e transformar os dados
+// Map serve para varrer o array e transformar os dados
 var valores = [2, 4, 6, 8, 10];
 console.log(valores);
 
-var dobro = valores.map(function(valor){
+var dobro = valores.map(function (valor) {
     return valor * 2;
 });
 
 // console.log(dobro);
 
 // Realizar mesma conta mas com a função separada
-function dobrar(valor){
+function dobrar(valor) {
     return valor * 2;
 }
 
@@ -27,12 +27,12 @@ console.log(dobro);
 
 // Encadeando maps para realizar múltiplas transformações
 
-function soma_4(valor){
+function soma_4(valor) {
     return valor + 4;
 }
 
 
-function dividir_por_5(valor){
+function dividir_por_5(valor) {
     return valor / 5;
 }
 

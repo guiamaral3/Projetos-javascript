@@ -44,7 +44,7 @@ let res = 45 * TAXA;
 //console.log(TAXA);
 
 // Constante vs Mutação
-const curso = {nome: "Programação em JavaScript"};
+const curso = { nome: "Programação em JavaScript" };
 //console.log(curso.nome);
 
 // Não posso alterar o valor de uma constante
@@ -64,7 +64,7 @@ Dicas de como declarar variáveis em JavaScript:
 
 const valor = 5;
 
-for(let i = 0; i < valor; i++){
-    console.log(valor - i);
+for (let i = 0; i < valor; i++) {
+    // console.log(valor - i);
 }
 

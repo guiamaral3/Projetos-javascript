@@ -14,7 +14,7 @@ var cursos = [
 // console.log(cursos.length);
 
 // definir uma função
-function imprimir(curso, indice, array){
+function imprimir(curso, indice, array) {
     console.log(indice + ' - ' + curso);
     console.log(array);
 }
@@ -23,11 +23,11 @@ function imprimir(curso, indice, array){
 // cursos.forEach(imprimir);
 
 // utilização de uma função anônima (lambda/callback) e template string
-cursos.forEach(function(curso, indice){
+cursos.forEach(function (curso, indice) {
     // console.log(`${indice} - ${curso}`); 
 });
 
 // Pode varres o array com o for normal
-for(var i = 0; i < cursos.length; i++){
+for (var i = 0; i < cursos.length; i++) {
     // console.log(i + ' - ' + cursos[i]);
 }
