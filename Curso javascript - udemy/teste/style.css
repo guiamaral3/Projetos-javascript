@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    list-style: none;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+}
+
+li{
+    margin: auto;
+    font-size: 10px;
+}
