@@ -1,0 +1,17 @@
+{
+  "name": "Secao11",
+  "version": "1,0,0",
+  "description": "Curso de JavaScript",
+  "main": "index.js",
+  "author": "Guilherme Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}

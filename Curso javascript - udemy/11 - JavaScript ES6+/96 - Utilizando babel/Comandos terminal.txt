@@ -1,0 +1,22 @@
+// Babel
+// Serve para transformar o codigo js em um codigo que funciona em todos os navegadores
+
+yarn init                       // Iniciar o projeto
+yarn add @babel/cli -D          // Instalar biblioteca com comandos // o "-D" é para instalar apenas no ambiente de DEV
+yarn add @babel/preset-env -D   // Prepara para ser rodade em qualquer ambiente (tv, navegador, e etc)
+yarn add @babel/core -D         // ?
+yarn add babel-loader -D      // ?
+
+Criar arquivo ".gitignore" e colocar "node_modules/"
+
+Criar arquivo ".babelrc" e colocar "{"presets": ["@babel/preset-env"]}"
+
+Criar arquivo "index.html"
+
+Criar arquivo "main.js"
+
+Colocar no package.json ""scripts": {"dev": "babel ./main.js -o ./bundle.js -w"}"
+
+Executar "yarn dev" no terminal
+
+Alterar no html para o script usar "bundle.js"
