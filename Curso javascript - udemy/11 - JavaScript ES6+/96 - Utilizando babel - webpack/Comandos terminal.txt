@@ -20,3 +20,14 @@ Colocar no package.json ""scripts": {"dev": "babel ./main.js -o ./bundle.js -w"}
 Executar "yarn dev" no terminal
 
 Alterar no html para o script usar "bundle.js"
+
+
+
+
+
+// webpack
+yarn add webpack webpack-cli -D     // Instalando modulos do webpack
+
+Criar arquivo "webpack.config.js"
+
+yarn add webpack-dev-server -D      // Instalando dev server
