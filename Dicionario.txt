@@ -1,2 +1,3 @@
 nodemon - Usado para criar o servidor backend
 webpack server - Usado para criar o servidor frontend
+minimist - Modulo node usado para pegar argumentos de linha de comando
