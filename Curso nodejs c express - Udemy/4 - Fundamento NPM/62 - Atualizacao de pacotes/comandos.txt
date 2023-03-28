@@ -1,0 +1,3 @@
+npm upate
+npm update chalk
+npx npm 
